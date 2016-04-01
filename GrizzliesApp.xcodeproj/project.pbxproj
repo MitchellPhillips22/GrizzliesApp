@@ -13,6 +13,7 @@
 		1BE92DE01CADBB35009284A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE92DDF1CADBB35009284A0 /* Assets.xcassets */; };
 		1BE92DE31CADBB35009284A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE92DE11CADBB35009284A0 /* LaunchScreen.storyboard */; };
 		1BE92DEB1CAED0AB009284A0 /* Paddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE92DEA1CAED0AB009284A0 /* Paddle.swift */; };
+		1BE92DED1CAEF2AB009284A0 /* Puck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE92DEC1CAEF2AB009284A0 /* Puck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1BE92DE21CADBB35009284A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BE92DE41CADBB35009284A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BE92DEA1CAED0AB009284A0 /* Paddle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paddle.swift; sourceTree = "<group>"; };
+		1BE92DEC1CAEF2AB009284A0 /* Puck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1BE92DD81CADBB35009284A0 /* AppDelegate.swift */,
 				1BE92DDA1CADBB35009284A0 /* ViewController.swift */,
 				1BE92DEA1CAED0AB009284A0 /* Paddle.swift */,
+				1BE92DEC1CAEF2AB009284A0 /* Puck.swift */,
 				1BE92DDC1CADBB35009284A0 /* Main.storyboard */,
 				1BE92DDF1CADBB35009284A0 /* Assets.xcassets */,
 				1BE92DE11CADBB35009284A0 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE92DED1CAEF2AB009284A0 /* Puck.swift in Sources */,
 				1BE92DEB1CAED0AB009284A0 /* Paddle.swift in Sources */,
 				1BE92DDB1CADBB35009284A0 /* ViewController.swift in Sources */,
 				1BE92DD91CADBB35009284A0 /* AppDelegate.swift in Sources */,
@@ -290,6 +294,7 @@
 				1BE92DE91CADBB35009284A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
